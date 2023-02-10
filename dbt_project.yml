@@ -1,0 +1,41 @@
+name: 'DBT_PG_Test'
+config-version: 2
+version: '0.1'
+profile: 'PostgreSQL common'
+model-paths: ['models']
+seed-paths: ['seeds']
+test-paths: ['tests']
+analysis-paths: ['analysis']
+macro-paths: ['macros']
+target-path: 'target'
+clean-targets: ['target', 'dbt_modules', 'logs']
+require-dbt-version: ['>=1.0.0', '<2.0.0']
+models:
+  'Node11':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node21':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node12':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node22':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node3':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node4':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
+  'Node5':
+    materialized: 'table'
+    staging:
+      materialized: 'table'
