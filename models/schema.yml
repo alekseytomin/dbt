@@ -1,6 +1,6 @@
 version: 2
 models:
-    - name: 'Node11'
+    - name: 'urls'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -12,7 +12,7 @@ models:
           - name: 'upperurlcolumn'
             description: 'TODO: Description'
             tests: []
-    - name: 'Node21'
+    - name: 'New'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -24,7 +24,10 @@ models:
           - name: 'upperurlcolumn'
             description: 'TODO: Description'
             tests: []
-    - name: 'Node12'
+          - name: 'Host'
+            description: 'TODO: Description'
+            tests: []
+    - name: 'urlss'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -36,52 +39,7 @@ models:
           - name: 'upperurlcolumn'
             description: 'TODO: Description'
             tests: []
-    - name: 'Node22'
-      description: 'TODO: Description'
-      columns:
-          - name: 'id'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'url'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'upperurlcolumn'
-            description: 'TODO: Description'
-            tests: []
-    - name: 'Node3'
-      description: 'TODO: Description'
-      columns:
-          - name: 'id'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'url'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'upperurlcolumn'
-            description: 'TODO: Description'
-            tests: []
-    - name: 'Node4'
-      description: 'TODO: Description'
-      columns:
-          - name: 'id'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'url'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'upperurlcolumn'
-            description: 'TODO: Description'
-            tests: []
-    - name: 'Node5'
-      description: 'TODO: Description'
-      columns:
-          - name: 'id'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'url'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'upperurlcolumn'
+          - name: 'Host'
             description: 'TODO: Description'
             tests: []
 sources:
@@ -89,4 +47,3 @@ sources:
       schema: 'dbt'
       tables:
           - name: 'urls'
-          - name: 'urls3'
