@@ -1,6 +1,6 @@
 version: 2
 models:
-    - name: 'urls'
+    - name: 'Mod_urls'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -12,7 +12,7 @@ models:
           - name: 'upperurlcolumn'
             description: 'TODO: Description'
             tests: []
-    - name: 'New'
+    - name: 'Mod_Group1'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -24,10 +24,7 @@ models:
           - name: 'upperurlcolumn'
             description: 'TODO: Description'
             tests: []
-          - name: 'Host'
-            description: 'TODO: Description'
-            tests: []
-    - name: 'urlss'
+    - name: 'Mod_test1'
       description: 'TODO: Description'
       columns:
           - name: 'id'
@@ -37,9 +34,6 @@ models:
             description: 'TODO: Description'
             tests: []
           - name: 'upperurlcolumn'
-            description: 'TODO: Description'
-            tests: []
-          - name: 'Host'
             description: 'TODO: Description'
             tests: []
 sources:

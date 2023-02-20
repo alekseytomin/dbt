@@ -1,7 +1,7 @@
-name: 'SourceDestDatabaseTest'
+name: 'DBT Test PG'
 config-version: 2
 version: '0.1'
-profile: 'PostgreSQL common'
+profile: 'PostgreSQL DBT'
 model-paths: ['models']
 seed-paths: ['seeds']
 test-paths: ['tests']
@@ -11,15 +11,15 @@ target-path: 'target'
 clean-targets: ['target', 'dbt_modules', 'logs']
 require-dbt-version: ['>=1.0.0', '<2.0.0']
 models:
-  'urls':
+  'Mod_urls':
     materialized: 'table'
     staging:
       materialized: 'table'
-  'New':
+  'Mod_Group1':
     materialized: 'table'
     staging:
       materialized: 'table'
-  'urlss':
+  'Mod_test1':
     materialized: 'table'
     staging:
       materialized: 'table'
